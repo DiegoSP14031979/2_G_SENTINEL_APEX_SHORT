@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-SENTINEL 2 // APEX SHORT</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --panel-bg: #161b22;
+            --border-color: #30363d;
+            --short-neon: #f85149;
+            --green-neon: #3fb950;
+            --cyan-neon: #00f0ff;
+            --text-main: #c9d1d9;
+            --text-dim: #8b949e;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* HEADER EMBLEM G-CORE */
+        .gcore-header {
+            background: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid var(--short-neon);
+            padding: 20px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .emblem-title {
+            font-size: 1.4rem;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+            color: #ffffff;
+            margin: 0;
+        }
+
+        .emblem-sub {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            letter-spacing: 1px;
+            margin-top: 4px;
+        }
+
+        .badge-short {
+            background: rgba(248, 81, 73, 0.15);
+            color: var(--short-neon);
+            border: 1px solid var(--short-neon);
+            padding: 4px 8px;
+            font-size: 0.75rem;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .connection-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: var(--green-neon);
+        }
+
+        .dot-pulse {
+            width: 8px;
+            height: 8px;
+            background-color: var(--green-neon);
+            border-radius: 50%;
+            box-shadow: 0 0 8px var(--green-neon);
+        }
+
+        /* GRID KPIS */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .kpi-card {
+            background: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            padding: 15px;
+            border-radius: 6px;
+        }
+
+        .kpi-label {
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+        }
+
+        .kpi-value {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #ffffff;
+            margin-top: 5px;
+        }
+
+        /* TABLES & CHARTS */
+        .panel {
+            background: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .panel-title {
+            font-size: 1rem;
+            color: #ffffff;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.88rem;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            color: var(--text-dim);
+            font-weight: 600;
+        }
+
+        .log-box {
+            background: #000000;
+            border: 1px solid var(--border-color);
+            color: var(--cyan-neon);
+            font-family: monospace;
+            padding: 12px;
+            font-size: 0.8rem;
+            border-radius: 4px;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER EMBLEM G-CORE -->
+    <div class="gcore-header">
+        <div>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <span class="badge-short">G-SENTINEL 2</span>
+                <h1 class="emblem-title">APEX SHORT // TRADITIONAL MARKETS COVERAGE</h1>
+            </div>
+            <div class="emblem-sub">G-SENTINEL QUANTITATIVE MONITORING ECOSYSTEM</div>
+        </div>
+        <div class="connection-status">
+            <div class="dot-pulse"></div>
+            <span>CONEXIÓN G-CORE: ACTIVA</span>
+        </div>
+    </div>
+
+    <!-- KPI GRID -->
+    <div class="kpi-grid">
+        <div class="kpi-card">
+            <div class="kpi-label">Capital Asignado</div>
+            <div class="kpi-value" id="kpi-capital">3.000 €</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-label">Valor Cartera</div>
+            <div class="kpi-value" id="kpi-valor">3.000 €</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-label">Slots Activos</div>
+            <div class="kpi-value" id="kpi-slots">0 / 4</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-label">Win Rate</div>
+            <div class="kpi-value" id="kpi-winrate" style="color: var(--green-neon);">-- %</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-label">Filtro Macro (SPY)</div>
+            <div class="kpi-value" id="kpi-macro" style="color: var(--cyan-neon);">NEUTRAL</div>
+        </div>
+    </div>
+
+    <!-- GRÁFICA DE RENDIMIENTO -->
+    <div class="panel">
+        <div class="panel-title">EVOLUCIÓN DEL CAPITAL (APEX SHORT)</div>
+        <canvas id="chartCapital" height="80"></canvas>
+    </div>
+
+    <!-- TABLA DE POSICIONES ACTIVAS -->
+    <div class="panel">
+        <div class="panel-title">POSICIONES SHORT ACTIVAS EN COBERTURA</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Activo / Índice</th>
+                    <th>Tipo</th>
+                    <th>Entrada</th>
+                    <th>Stop Loss</th>
+                    <th>Take Profit</th>
+                    <th>Capital Slot</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-posiciones">
+                <tr><td colspan="6" style="text-align: center; color: var(--text-dim);">Cargando telemetría G-CORE...</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- MATRIZ DE DECISIONES -->
+    <div class="panel">
+        <div class="panel-title">MATRIZ DE RAZONAMIENTO EN TIEMPO REAL</div>
+        <div class="log-box" id="log-decisiones">> Inicializando consola G-CORE...</div>
+    </div>
+
+    <script>
+        async function cargarDashboard() {
+            try {
+                const resPos = await fetch('posiciones_short.json');
+                const dataPos = await resPos.json();
+                
+                const resHist = await fetch('historial_short.json');
+                const dataHist = await resHist.json();
+
+                // Actualizar KPIs
+                document.getElementById('kpi-valor').innerText = `${dataPos.capital_libre.toFixed(2)} €`;
+                document.getElementById('kpi-slots').innerText = `${dataPos.slots_activos.length} / 4`;
+                document.getElementById('kpi-macro').innerText = dataPos.macro_status || 'NEUTRAL';
+                
+                if (dataHist.metricas) {
+                    document.getElementById('kpi-winrate').innerText = `${dataHist.metricas.win_rate} %`;
+                }
+
+                // Renderizar Tabla Posiciones
+                const tbody = document.getElementById('tabla-posiciones');
+                tbody.innerHTML = '';
+                
+                if (dataPos.slots_activos.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: var(--text-dim);">Sin posiciones cortas activas. Buscando coberturas en rotación 24/5.</td></tr>';
+                } else {
+                    dataPos.slots_activos.forEach(pos => {
+                        tbody.innerHTML += `
+                            <tr>
+                                <td><strong>${pos.label}</strong> (${pos.symbol})</td>
+                                <td><span class="badge-short">${pos.side}</span></td>
+                                <td>${pos.entry_price}</td>
+                                <td style="color: var(--short-neon);">${pos.stop_loss}</td>
+                                <td style="color: var(--green-neon);">${pos.take_profit}</td>
+                                <td>${pos.allocated_capital} €</td>
+                            </tr>
+                        `;
+                    });
+                }
+
+                // Renderizar Logs
+                const logBox = document.getElementById('log-decisiones');
+                if (dataPos.decisiones_log && dataPos.decisiones_log.length > 0) {
+                    logBox.innerHTML = dataPos.decisiones_log.map(l => `> ${l}`).join('<br>');
+                } else {
+                    logBox.innerHTML = `> [${dataPos.last_update}] Sistema sincronizado sin cambios de estado.`;
+                }
+
+                // Gráfica de Capital
+                const ctx = document.getElementById('chartCapital').getContext('2d');
+                const ops = dataHist.operaciones || [];
+                let capitalAcumulado = 3000;
+                const labels = ['Inicio'];
+                const dataPoints = [3000];
+
+                ops.forEach((op, idx) => {
+                    capitalAcumulado += op.pnl_eur;
+                    labels.push(`Op ${idx + 1}`);
+                    dataPoints.push(capitalAcumulado);
+                });
+
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Capital G-CORE (€)',
+                            data: dataPoints,
+                            borderColor: '#f85149',
+                            backgroundColor: 'rgba(248, 81, 73, 0.1)',
+                            fill: true,
+                            tension: 0.2
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: { legend: { display: false } },
+                        scales: {
+                            x: { grid: { color: '#30363d' }, ticks: { color: '#8b949e' } },
+                            y: { grid: { color: '#30363d' }, ticks: { color: '#8b949e' } }
+                        }
+                    }
+                });
+
+            } catch (err) {
+                console.error("Error al cargar datos G-CORE:", err);
+            }
+        }
+
+        cargarDashboard();
+    </script>
+</body>
+</html>
