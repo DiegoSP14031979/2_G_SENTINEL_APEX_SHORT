@@ -1,0 +1,38 @@
+name: G-SENTINEL APEX SHORT Engine 24/5
+
+on:
+  schedule:
+    # Ejecución cada 30 minutos de lunes a viernes (fuerza de rotación 24h)
+    - cron: '*/30 * * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-apex-short:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Instalar Dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance pandas numpy
+
+      - name: Ejecutar Motor Apex Short (Pata 2)
+        run: python fetch_apex_short.py
+
+      - name: Persistir Estado JSON
+        run: |
+          git config --global user.name "g-sentinel-bot"
+          git config --global user.email "bot@g-sentinel.core"
+          git add posiciones_short.json historial_short.json
+          git commit -m "G-CORE Auto-Sync: Apex Short State [$(date -u +'%Y-%m-%d %H:%M UTC')]" || exit 0
+          git push
