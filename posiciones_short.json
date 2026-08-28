@@ -1,0 +1,12 @@
+{
+    "capital_libre": 3000.0,
+    "slots_activos": [],
+    "last_update": "2026-08-28 15:30:00 UTC",
+    "macro_status": "NEUTRAL",
+    "decisiones_log": [
+        " SYSTEM_INIT // G-SENTINEL APEX SHORT inicializado con 3.000,00 €",
+        " CONFIGURATION // 4 slots de 750,00 € (R <= 1.5% = 45,00 € por trade)",
+        " ROTATION_24_5 // Cobertura activa: Asia (Nikkei), Europa (DAX), EE.UU. (S&P/Nasdaq)",
+        " STANDBY // Esperando primer ciclo de evaluación del workflow GitHub Actions"
+    ]
+}
