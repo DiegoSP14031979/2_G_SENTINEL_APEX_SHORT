@@ -1,0 +1,10 @@
+{
+    "operaciones": [],
+    "metricas": {
+        "win_rate": 0.0,
+        "profit_factor": 1.0,
+        "total_trades": 0,
+        "trades_ganadores": 0,
+        "trades_perdedores": 0
+    }
+}
