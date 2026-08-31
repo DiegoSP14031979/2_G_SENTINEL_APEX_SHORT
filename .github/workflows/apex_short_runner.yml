@@ -1,14 +1,14 @@
 name: G-SENTINEL AGENT RUNNER - APEX SHORT
 
 on:
-  # 1. Ejecución programada 24x5 (Cada 15 min, Lunes a Viernes)
+  # 1. Frecuencia de ejecución automática 24x5 (Cada 15 min, Lunes a Viernes continuo)
   schedule:
     - cron: '*/15 * * * 1-5'
 
-  # 2. Ejecución manual desde la interfaz de GitHub
+  # 2. Permitir ejecución manual desde la interfaz de GitHub
   workflow_dispatch:
 
-  # 3. Activación remota por Webhook / API (Ping de respaldo Uptime Guard)
+  # 3. Permitir activación remota vía API / Webhook (PING DE RESPALDO UPTIME GUARD)
   repository_dispatch:
     types: [trigger_sentinel]
 
@@ -32,14 +32,15 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install yfinance pandas numpy; fi
 
-      - name: Ejecutar Bot APEX SHORT
+      - name: Ejecutar Bot G-SENTINEL APEX SHORT
         env:
+          # Inyección de claves API
           EXCHANGE_API_KEY: ${{ secrets.EXCHANGE_API_KEY }}
           EXCHANGE_SECRET_KEY: ${{ secrets.EXCHANGE_SECRET_KEY }}
         run: |
           if [ -f main.py ]; then python main.py; else python fetch_apex_short.py; fi
 
-      - name: Commit y Push de Estado JSON
+      - name: Sincronización y Commit de Estado JSON (Skip CI)
         run: |
           git config --global user.name "G-SENTINEL-BOT"
           git config --global user.email "bot@g-sentinel.local"
