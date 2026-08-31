@@ -1,13 +1,13 @@
 {
     "capital_libre": 3000.0,
     "slots_activos": [],
-    "last_update": "2026-08-31 22:15:34 UTC",
-    "macro_status": "BULLISH",
+    "last_update": "2026-08-31 22:17:55 UTC",
+    "macro_status": "BULLISH_TREND",
     "decisiones_log": [
-        "🔍 SCANNER 24/5 // MACRO SPY: BULLISH (+1.49% vs EMA50)",
-        "📊 Monitoreo Nikkei 225: 66405.56 (Tendencia Local: ALCISTA | RSI: 53.9) -> Esperando gatillo SHORT",
-        "📊 Monitoreo DAX 40: 26569.99 (Tendencia Local: ALCISTA | RSI: 58.8) -> Esperando gatillo SHORT",
-        "📊 Monitoreo Nasdaq 100: 29456.97 (Tendencia Local: ALCISTA | RSI: 48.7) -> Esperando gatillo SHORT",
-        "📊 Monitoreo S&P 500: 7686.14 (Tendencia Local: ALCISTA | RSI: 45.2) -> Esperando gatillo SHORT"
+        "⚡ G-CORE ADAPTIVE ENGINE V4 // MACRO: BULLISH_TREND (+1.49% vs EMA50) | Factor Risk: 50% (22.50€)",
+        "📊 Capa Adaptativa [Nikkei 225]: 66405.56 (RSI: 53.9 | Rend.Día: +0.46%) -> Sin confluencia de gatillos",
+        "📊 Capa Adaptativa [DAX 40]: 26569.99 (RSI: 58.8 | Rend.Día: +0.28%) -> Sin confluencia de gatillos",
+        "📊 Capa Adaptativa [Nasdaq 100]: 29456.97 (RSI: 48.7 | Rend.Día: +0.18%) -> Sin confluencia de gatillos",
+        "📊 Capa Adaptativa [S&P 500]: 7686.14 (RSI: 45.2 | Rend.Día: -0.15%) -> Sin confluencia de gatillos"
     ]
 }
