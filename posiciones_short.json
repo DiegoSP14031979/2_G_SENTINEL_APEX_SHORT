@@ -15,12 +15,12 @@
             "rsi": 43.3
         }
     ],
-    "last_update": "2026-09-01 02:16:39 UTC",
+    "last_update": "2026-09-01 02:42:17 UTC",
     "macro_status": "BULLISH_TREND",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4 // MACRO: BULLISH_TREND (+1.49% vs EMA50) | Factor Risk: 50% (22.50€)",
-        "📊 Capa Adaptativa [DAX 40]: 26258.11 (RSI: 46.0 | Rend.Día: -0.78%) -> Sin confluencia de gatillos",
-        "📊 Capa Adaptativa [Nasdaq 100]: 29456.97 (RSI: 48.7 | Rend.Día: +0.18%) -> Sin confluencia de gatillos",
-        "📊 Capa Adaptativa [S&P 500]: 7686.14 (RSI: 45.2 | Rend.Día: -0.15%) -> Sin confluencia de gatillos"
+        "📊 Capa Adaptativa [DAX 40]: 26258.11 (RSI: 47.5 | Rend.Día: -0.78%) -> Sin confluencia de gatillos",
+        "📊 Capa Adaptativa [Nasdaq 100]: 29456.97 (RSI: 47.0 | Rend.Día: +0.18%) -> Sin confluencia de gatillos",
+        "📊 Capa Adaptativa [S&P 500]: 7686.14 (RSI: 42.8 | Rend.Día: -0.15%) -> Sin confluencia de gatillos"
     ]
 }
