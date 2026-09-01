@@ -41,11 +41,10 @@
             "rsi": 41.8
         }
     ],
-    "last_update": "2026-09-01 13:32:01 UTC",
+    "last_update": "2026-09-01 13:55:15 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4 // MACRO: WEAK_BEARISH (+0.76% vs EMA50) | Factor Risk: 75% (33.75€)",
-        "🚀 G-CORE TRIGGER ACTIVADO: Nasdaq 100 (^NDX) a 29026.55 | Tipo: BREAKOUT_BEARISH | Risk: 33.75€ | SL: 29550.99 | TP: 28047.62",
-        "📊 Capa Adaptativa [S&P 500]: 7632.69 (RSI: 40.4 | Rend.Día: -0.04%) -> Sin confluencia de gatillos"
+        "⚡ G-CORE ADAPTIVE ENGINE V4 // MACRO: WEAK_BEARISH (+0.75% vs EMA50) | Factor Risk: 75% (33.75€)",
+        "📊 Capa Adaptativa [S&P 500]: 7632.86 (RSI: 40.4 | Rend.Día: -0.03%) -> Sin confluencia de gatillos"
     ]
 }
