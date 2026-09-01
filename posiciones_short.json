@@ -13,13 +13,26 @@
             "risk_allocated": 22.5,
             "trigger_type": "BREAKOUT_BEARISH",
             "rsi": 43.3
+        },
+        {
+            "symbol": "^GDAXI",
+            "label": "DAX 40",
+            "side": "SHORT",
+            "entry_price": 26025.1,
+            "stop_loss": 26338.26,
+            "take_profit": 25440.53,
+            "timestamp": "2026-09-01 08:58:17 UTC",
+            "allocated_capital": 750.0,
+            "risk_allocated": 22.5,
+            "trigger_type": "LOCAL_WEAKNESS_COVER",
+            "rsi": 41.6
         }
     ],
-    "last_update": "2026-09-01 08:43:59 UTC",
+    "last_update": "2026-09-01 08:58:17 UTC",
     "macro_status": "BULLISH_TREND",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4 // MACRO: BULLISH_TREND (+1.49% vs EMA50) | Factor Risk: 50% (22.50€)",
-        "📊 Capa Adaptativa [DAX 40]: 26082.47 (RSI: 43.0 | Rend.Día: -0.26%) -> Sin confluencia de gatillos",
+        "🚀 G-CORE TRIGGER ACTIVADO: DAX 40 (^GDAXI) a 26025.10 | Tipo: LOCAL_WEAKNESS_COVER | Risk: 22.50€ | SL: 26338.26 | TP: 25440.53",
         "📊 Capa Adaptativa [Nasdaq 100]: 29456.97 (RSI: 48.7 | Rend.Día: +0.18%) -> Sin confluencia de gatillos",
         "📊 Capa Adaptativa [S&P 500]: 7686.14 (RSI: 45.2 | Rend.Día: -0.15%) -> Sin confluencia de gatillos"
     ]
