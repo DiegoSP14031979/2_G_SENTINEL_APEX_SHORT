@@ -1,11 +1,25 @@
 {
     "capital_libre": 3000.0,
-    "slots_activos": [],
-    "last_update": "2026-08-31 23:52:41 UTC",
+    "slots_activos": [
+        {
+            "symbol": "^N225",
+            "label": "Nikkei 225",
+            "side": "SHORT",
+            "entry_price": 65693.49,
+            "stop_loss": 67432.95,
+            "take_profit": 62446.51,
+            "timestamp": "2026-09-01 00:23:52 UTC",
+            "allocated_capital": 750.0,
+            "risk_allocated": 22.5,
+            "trigger_type": "BREAKOUT_BEARISH",
+            "rsi": 43.3
+        }
+    ],
+    "last_update": "2026-09-01 00:23:52 UTC",
     "macro_status": "BULLISH_TREND",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4 // MACRO: BULLISH_TREND (+1.49% vs EMA50) | Factor Risk: 50% (22.50€)",
-        "📊 Capa Adaptativa [Nikkei 225]: 66405.56 (RSI: 53.9 | Rend.Día: +0.46%) -> Sin confluencia de gatillos",
+        "🚀 G-CORE TRIGGER ACTIVADO: Nikkei 225 (^N225) a 65693.49 | Tipo: BREAKOUT_BEARISH | Risk: 22.50€ | SL: 67432.95 | TP: 62446.51",
         "📊 Capa Adaptativa [DAX 40]: 26569.99 (RSI: 58.8 | Rend.Día: +0.28%) -> Sin confluencia de gatillos",
         "📊 Capa Adaptativa [Nasdaq 100]: 29456.97 (RSI: 48.7 | Rend.Día: +0.18%) -> Sin confluencia de gatillos",
         "📊 Capa Adaptativa [S&P 500]: 7686.14 (RSI: 45.2 | Rend.Día: -0.15%) -> Sin confluencia de gatillos"
