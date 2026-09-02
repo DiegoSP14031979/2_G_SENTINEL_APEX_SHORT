@@ -19,7 +19,7 @@
             "label": "DAX 40",
             "side": "SHORT",
             "entry_price": 26025.1,
-            "stop_loss": 26338.26,
+            "stop_loss": 26025.1,
             "take_profit": 25440.53,
             "timestamp": "2026-09-01 08:58:17 UTC",
             "allocated_capital": 750.0,
@@ -41,10 +41,11 @@
             "rsi": 41.8
         }
     ],
-    "last_update": "2026-09-02 09:42:13 UTC",
+    "last_update": "2026-09-02 09:56:01 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4 // MACRO: WEAK_BEARISH (+0.77% vs EMA50) | Factor Risk: 75% (33.75€)",
-        "📊 Capa Adaptativa [S&P 500]: 7631.47 (RSI: 40.3 | Rend.Día: -0.05%) -> Sin confluencia de gatillos"
+        "🛡️ CAPA 4: Break-Even activado para SHORT ^GDAXI a 26025.10",
+        "📊 Capa Adaptativa [S&P 500]: 7631.47 (RSI: 37.7 | Rend.Día: -0.05%) -> Sin confluencia de gatillos"
     ]
 }
