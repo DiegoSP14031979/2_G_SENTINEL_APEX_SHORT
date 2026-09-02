@@ -41,10 +41,10 @@
             "rsi": 41.8
         }
     ],
-    "last_update": "2026-09-02 17:16:43 UTC",
+    "last_update": "2026-09-02 17:40:39 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4 // MACRO: WEAK_BEARISH (+1.13% vs EMA50) | Factor Risk: 75% (33.75€)",
-        "📊 Capa Adaptativa [S&P 500]: 7664.92 (RSI: 35.4 | Rend.Día: +0.40%) -> Sin confluencia de gatillos"
+        "⚡ G-CORE ADAPTIVE ENGINE V4 // MACRO: WEAK_BEARISH (+1.08% vs EMA50) | Factor Risk: 75% (33.75€)",
+        "📊 Capa Adaptativa [S&P 500]: 7661.33 (RSI: 41.4 | Rend.Día: +0.35%) -> Sin confluencia de gatillos"
     ]
 }
