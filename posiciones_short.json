@@ -6,7 +6,7 @@
             "label": "Nikkei 225",
             "side": "SHORT",
             "entry_price": 65693.49,
-            "stop_loss": 64596.53595703124,
+            "stop_loss": 64584.566249999996,
             "take_profit": 62446.51,
             "timestamp": "2026-09-01 00:23:52 UTC",
             "allocated_capital": 750.0,
@@ -41,10 +41,11 @@
             "rsi": 41.8
         }
     ],
-    "last_update": "2026-09-02 04:16:58 UTC",
+    "last_update": "2026-09-02 04:43:00 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4 // MACRO: WEAK_BEARISH (+0.77% vs EMA50) | Factor Risk: 75% (33.75€)",
-        "📊 Capa Adaptativa [S&P 500]: 7631.47 (RSI: 40.3 | Rend.Día: -0.05%) -> Sin confluencia de gatillos"
+        "📈 CAPA 4: Trailing Stop Dinámico ajustado en SHORT ^N225 a 64584.57",
+        "📊 Capa Adaptativa [S&P 500]: 7631.47 (RSI: 37.7 | Rend.Día: -0.05%) -> Sin confluencia de gatillos"
     ]
 }
