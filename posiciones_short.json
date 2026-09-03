@@ -6,7 +6,7 @@
             "label": "Nikkei 225",
             "side": "SHORT",
             "entry_price": 65693.49,
-            "stop_loss": 64451.615742187496,
+            "stop_loss": 66678.89,
             "take_profit": 62446.51,
             "timestamp": "2026-09-01 00:23:52 UTC",
             "allocated_capital": 750.0,
@@ -19,7 +19,7 @@
             "label": "DAX 40",
             "side": "SHORT",
             "entry_price": 26025.1,
-            "stop_loss": 26025.1,
+            "stop_loss": 26415.48,
             "take_profit": 25440.53,
             "timestamp": "2026-09-01 08:58:17 UTC",
             "allocated_capital": 750.0,
@@ -41,10 +41,10 @@
             "rsi": 41.8
         }
     ],
-    "last_update": "2026-09-03 14:18:49 UTC",
+    "last_update": "2026-09-03 14:31:57 UTC",
     "macro_status": "BULLISH_TREND",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4 // MACRO: BULLISH_TREND (+1.52% vs EMA50) | Factor Risk: 50% (22.50€)",
-        "📊 Capa Adaptativa [S&P 500]: 7699.51 (RSI: 41.0 | Rend.Día: +0.17%) -> Sin confluencia de gatillos"
+        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: BULLISH_TREND | Factor Risk: 50% (22.50€)",
+        "🛡️ Break-Even activado para SHORT ^N225 a 65693.49"
     ]
 }
