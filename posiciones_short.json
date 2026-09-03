@@ -41,11 +41,10 @@
             "rsi": 41.8
         }
     ],
-    "last_update": "2026-09-03 05:54:18 UTC",
+    "last_update": "2026-09-03 06:21:17 UTC",
     "macro_status": "BULLISH_TREND",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4 // MACRO: BULLISH_TREND (+1.17% vs EMA50) | Factor Risk: 50% (22.50€)",
-        "📈 CAPA 4: Trailing Stop Dinámico ajustado en SHORT ^N225 a 64451.62",
         "📊 Capa Adaptativa [S&P 500]: 7666.60 (RSI: 35.6 | Rend.Día: +0.42%) -> Sin confluencia de gatillos"
     ]
 }
