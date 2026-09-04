@@ -1,5 +1,13 @@
 {
-    "operaciones": [],
+    "operaciones": [
+        {
+            "timestamp": "2026-09-04 13:32:12 UTC",
+            "symbol": "^NDX",
+            "side": "SHORT",
+            "pnl_eur": -33.75,
+            "reason": "STOP_LOSS"
+        }
+    ],
     "metricas": {
         "win_rate": 0.0,
         "profit_factor": 1.0,
