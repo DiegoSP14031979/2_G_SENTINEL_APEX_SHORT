@@ -1,20 +1,30 @@
-name: G-SENTINEL PATA 4 // NEXUS SHORT ENGINE AUTO-SYNC
+name: G-SENTINEL AGENT RUNNER - APEX SHORT
 
 on:
   schedule:
-    # Cronjob activo cada hora sin interrupción
-    - cron: '0 * * * *'
-  workflow_dispatch: # Permite ejecución manual desde GitHub Actions
+    # Ejecución automática redundante cada 15 minutos (Lunes a Viernes)
+    - cron: '*/15 * * * 1-5'
+  workflow_dispatch:
+    # Permite la ejecución manual desde la pestaña Actions
+  repository_dispatch:
+    # Escucha las peticiones webhook de cron-job.org
+    types: [trigger_sentinel, cronjob_trigger]
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  run-nexus-short-engine:
+  execute-sentinel:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Código
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Configurar Entorno Python
         uses: actions/setup-python@v5
@@ -24,14 +34,24 @@ jobs:
       - name: Instalar Dependencias
         run: |
           python -m pip install --upgrade pip
-          pip install numpy pandas
+          pip install yfinance pandas numpy beautifulsoup4 lxml requests curl_cffi
 
-      - name: Ejecutar Motor Cuantitativo Short Crypto
-        run: python fetch_nexus_short.py
+      - name: Ejecutar Bot G-SENTINEL APEX SHORT
+        run: |
+          if [ -f main.py ]; then
+            python main.py
+          else
+            python fetch_apex_short.py
+          fi
 
-      - name: Commit y Auto-Sync de Posiciones e Historial JSON
+      - name: Sincronización y Commit de Estado JSON (Skip CI)
         run: |
           git config --global user.name "G-SENTINEL-BOT"
           git config --global user.email "bot@g-sentinel.local"
-          git add posiciones.json historial.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "update: Pata 4 NEXUS SHORT auto-sync [skip ci]" && git push)
+          git add posiciones_short.json historial_short.json || true
+          if git diff --staged --quiet; then
+            echo "No hay cambios detectados en las posiciones."
+          else
+            git commit -m "update: Pata 2 APEX SHORT auto-sync [skip ci]"
+            git push origin main
+          fi
