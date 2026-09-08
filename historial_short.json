@@ -6,6 +6,13 @@
             "side": "SHORT",
             "pnl_eur": -33.75,
             "reason": "STOP_LOSS"
+        },
+        {
+            "timestamp": "2026-09-08 01:14:37 UTC",
+            "symbol": "^N225",
+            "side": "SHORT",
+            "pnl_eur": -22.5,
+            "reason": "STOP_LOSS"
         }
     ],
     "metricas": {
