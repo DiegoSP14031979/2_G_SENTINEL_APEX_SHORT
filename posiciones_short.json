@@ -54,11 +54,10 @@
             "rsi": 48.7
         }
     ],
-    "last_update": "2026-09-09 15:28:20 UTC",
+    "last_update": "2026-09-09 15:45:48 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)",
-        "🛡️ Break-Even activado para SHORT ^GDAXI a 26025.10",
-        "🚀 TRIGGER SHORT: Nasdaq 100 a 29359.68 | SL: 29970.89 | TP: 28442.86"
+        "🛡️ Break-Even activado para SHORT ^GDAXI a 26025.10"
     ]
 }
