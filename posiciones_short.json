@@ -39,12 +39,26 @@
             "risk_allocated": 22.5,
             "trigger_type": "LOCAL_WEAKNESS_COVER",
             "rsi": 48.8
+        },
+        {
+            "symbol": "^NDX",
+            "label": "Nasdaq 100",
+            "side": "SHORT",
+            "entry_price": 29359.68,
+            "stop_loss": 29970.89,
+            "take_profit": 28442.86,
+            "timestamp": "2026-09-09 15:28:20 UTC",
+            "allocated_capital": 750.0,
+            "risk_allocated": 33.75,
+            "trigger_type": "LOCAL_WEAKNESS_COVER",
+            "rsi": 48.7
         }
     ],
-    "last_update": "2026-09-09 15:10:21 UTC",
+    "last_update": "2026-09-09 15:28:20 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)",
-        "🛡️ Break-Even activado para SHORT ^GDAXI a 26025.10"
+        "🛡️ Break-Even activado para SHORT ^GDAXI a 26025.10",
+        "🚀 TRIGGER SHORT: Nasdaq 100 a 29359.68 | SL: 29970.89 | TP: 28442.86"
     ]
 }
