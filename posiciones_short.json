@@ -54,12 +54,9 @@
             "rsi": 32.8
         }
     ],
-    "last_update": "2026-09-10 12:56:50 UTC",
+    "last_update": "2026-09-10 13:13:53 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)",
-        "🛡️ Break-Even activado para SHORT ^GDAXI a 26025.10",
-        "🎯 Cierre TP en SHORT ^GDAXI | PnL: +56.25 €",
-        "🚀 TRIGGER SHORT: DAX 40 a 25431.81 | SL: 25928.70 | TP: 24686.48"
+        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)"
     ]
 }
