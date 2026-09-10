@@ -19,7 +19,7 @@
             "label": "S&P 500",
             "side": "SHORT",
             "entry_price": 7679.71,
-            "stop_loss": 7789.2,
+            "stop_loss": 7794.91,
             "take_profit": 7515.47,
             "timestamp": "2026-09-08 14:14:54 UTC",
             "allocated_capital": 750.0,
@@ -54,9 +54,10 @@
             "rsi": 32.8
         }
     ],
-    "last_update": "2026-09-10 13:29:07 UTC",
+    "last_update": "2026-09-10 13:45:03 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)"
+        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)",
+        "🛡️ Break-Even activado para SHORT ^GSPC a 7679.71"
     ]
 }
