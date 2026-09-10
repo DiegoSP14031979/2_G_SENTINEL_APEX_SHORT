@@ -1,19 +1,6 @@
 {
-    "capital_libre": 2943.75,
+    "capital_libre": 3000.0,
     "slots_activos": [
-        {
-            "symbol": "^GDAXI",
-            "label": "DAX 40",
-            "side": "SHORT",
-            "entry_price": 26025.1,
-            "stop_loss": 26415.48,
-            "take_profit": 25440.53,
-            "timestamp": "2026-09-01 08:58:17 UTC",
-            "allocated_capital": 750.0,
-            "risk_allocated": 22.5,
-            "trigger_type": "LOCAL_WEAKNESS_COVER",
-            "rsi": 41.6
-        },
         {
             "symbol": "^N225",
             "label": "Nikkei 225",
@@ -52,12 +39,27 @@
             "risk_allocated": 33.75,
             "trigger_type": "LOCAL_WEAKNESS_COVER",
             "rsi": 48.7
+        },
+        {
+            "symbol": "^GDAXI",
+            "label": "DAX 40",
+            "side": "SHORT",
+            "entry_price": 25431.81,
+            "stop_loss": 25928.7,
+            "take_profit": 24686.48,
+            "timestamp": "2026-09-10 12:56:50 UTC",
+            "allocated_capital": 750.0,
+            "risk_allocated": 33.75,
+            "trigger_type": "LOCAL_WEAKNESS_COVER",
+            "rsi": 32.8
         }
     ],
-    "last_update": "2026-09-10 12:37:23 UTC",
+    "last_update": "2026-09-10 12:56:50 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)",
-        "🛡️ Break-Even activado para SHORT ^GDAXI a 26025.10"
+        "🛡️ Break-Even activado para SHORT ^GDAXI a 26025.10",
+        "🎯 Cierre TP en SHORT ^GDAXI | PnL: +56.25 €",
+        "🚀 TRIGGER SHORT: DAX 40 a 25431.81 | SL: 25928.70 | TP: 24686.48"
     ]
 }
