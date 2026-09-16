@@ -1,5 +1,5 @@
 {
-    "capital_libre": 3000.0,
+    "capital_libre": 3056.25,
     "slots_activos": [
         {
             "symbol": "^N225",
@@ -13,19 +13,6 @@
             "risk_allocated": 22.5,
             "trigger_type": "BREAKOUT_BEARISH",
             "rsi": 52.2
-        },
-        {
-            "symbol": "^GSPC",
-            "label": "S&P 500",
-            "side": "SHORT",
-            "entry_price": 7679.71,
-            "stop_loss": 7794.91,
-            "take_profit": 7515.47,
-            "timestamp": "2026-09-08 14:14:54 UTC",
-            "allocated_capital": 750.0,
-            "risk_allocated": 22.5,
-            "trigger_type": "LOCAL_WEAKNESS_COVER",
-            "rsi": 48.8
         },
         {
             "symbol": "^NDX",
@@ -52,14 +39,29 @@
             "risk_allocated": 33.75,
             "trigger_type": "LOCAL_WEAKNESS_COVER",
             "rsi": 32.8
+        },
+        {
+            "symbol": "^GSPC",
+            "label": "S&P 500",
+            "side": "SHORT",
+            "entry_price": 7512.5,
+            "stop_loss": 7642.64,
+            "take_profit": 7317.29,
+            "timestamp": "2026-09-16 19:25:40 UTC",
+            "allocated_capital": 750.0,
+            "risk_allocated": 33.75,
+            "trigger_type": "LOCAL_WEAKNESS_COVER",
+            "rsi": 37.2
         }
     ],
-    "last_update": "2026-09-16 19:09:58 UTC",
+    "last_update": "2026-09-16 19:25:40 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)",
         "🛡️ Break-Even activado para SHORT ^N225 a 65674.72",
         "🛡️ Break-Even activado para SHORT ^GSPC a 7679.71",
-        "🛡️ Break-Even activado para SHORT ^NDX a 29359.68"
+        "🎯 Cierre TP en SHORT ^GSPC | PnL: +56.25 €",
+        "🛡️ Break-Even activado para SHORT ^NDX a 29359.68",
+        "🚀 TRIGGER SHORT: S&P 500 a 7512.50 | SL: 7642.64 | TP: 7317.29"
     ]
 }
