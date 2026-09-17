@@ -1,5 +1,5 @@
 {
-    "capital_libre": 3056.25,
+    "capital_libre": 3022.5,
     "slots_activos": [
         {
             "symbol": "^N225",
@@ -44,20 +44,22 @@
             "symbol": "^GSPC",
             "label": "S&P 500",
             "side": "SHORT",
-            "entry_price": 7512.5,
-            "stop_loss": 7642.64,
-            "take_profit": 7317.29,
-            "timestamp": "2026-09-16 19:25:40 UTC",
+            "entry_price": 7643.36,
+            "stop_loss": 7778.3,
+            "take_profit": 7440.96,
+            "timestamp": "2026-09-17 19:51:26 UTC",
             "allocated_capital": 750.0,
-            "risk_allocated": 33.75,
+            "risk_allocated": 22.5,
             "trigger_type": "LOCAL_WEAKNESS_COVER",
-            "rsi": 37.2
+            "rsi": 43.1
         }
     ],
-    "last_update": "2026-09-17 19:38:48 UTC",
+    "last_update": "2026-09-17 19:51:26 UTC",
     "macro_status": "BULLISH_TREND",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: BULLISH_TREND | Factor Risk: 50% (22.50€)",
-        "🛡️ Break-Even activado para SHORT ^N225 a 65674.72"
+        "🛡️ Break-Even activado para SHORT ^N225 a 65674.72",
+        "❌ Cierre SL en SHORT ^GSPC | PnL: -33.75 €",
+        "🚀 TRIGGER SHORT: S&P 500 a 7643.36 | SL: 7778.30 | TP: 7440.96"
     ]
 }

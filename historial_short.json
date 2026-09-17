@@ -27,6 +27,13 @@
             "side": "SHORT",
             "pnl_eur": 56.25,
             "reason": "TAKE_PROFIT"
+        },
+        {
+            "timestamp": "2026-09-17 19:51:26 UTC",
+            "symbol": "^GSPC",
+            "side": "SHORT",
+            "pnl_eur": -33.75,
+            "reason": "STOP_LOSS"
         }
     ],
     "metricas": {
