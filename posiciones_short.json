@@ -1,5 +1,5 @@
 {
-    "capital_libre": 2966.25,
+    "capital_libre": 2943.75,
     "slots_activos": [
         {
             "symbol": "^GDAXI",
@@ -13,19 +13,6 @@
             "risk_allocated": 33.75,
             "trigger_type": "LOCAL_WEAKNESS_COVER",
             "rsi": 32.8
-        },
-        {
-            "symbol": "^GSPC",
-            "label": "S&P 500",
-            "side": "SHORT",
-            "entry_price": 7643.36,
-            "stop_loss": 7778.3,
-            "take_profit": 7440.96,
-            "timestamp": "2026-09-17 19:51:26 UTC",
-            "allocated_capital": 750.0,
-            "risk_allocated": 22.5,
-            "trigger_type": "LOCAL_WEAKNESS_COVER",
-            "rsi": 43.1
         },
         {
             "symbol": "^NDX",
@@ -52,11 +39,26 @@
             "risk_allocated": 33.75,
             "trigger_type": "EXHAUSTION_REVERSAL",
             "rsi": 69.9
+        },
+        {
+            "symbol": "^GSPC",
+            "label": "S&P 500",
+            "side": "SHORT",
+            "entry_price": 7778.38,
+            "stop_loss": 7924.46,
+            "take_profit": 7559.26,
+            "timestamp": "2026-10-05 19:49:55 UTC",
+            "allocated_capital": 750.0,
+            "risk_allocated": 22.5,
+            "trigger_type": "EXHAUSTION_REVERSAL",
+            "rsi": 67.0
         }
     ],
-    "last_update": "2026-10-05 11:34:58 UTC",
+    "last_update": "2026-10-05 19:49:55 UTC",
     "macro_status": "BULLISH_TREND",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: BULLISH_TREND | Factor Risk: 50% (22.50€)"
+        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: BULLISH_TREND | Factor Risk: 50% (22.50€)",
+        "❌ Cierre SL en SHORT ^GSPC | PnL: -22.50 €",
+        "🚀 TRIGGER SHORT: S&P 500 a 7778.38 | SL: 7924.46 | TP: 7559.26"
     ]
 }
