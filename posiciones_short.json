@@ -1,5 +1,5 @@
 {
-    "capital_libre": 2910.0,
+    "capital_libre": 2887.5,
     "slots_activos": [
         {
             "symbol": "^GDAXI",
@@ -13,19 +13,6 @@
             "risk_allocated": 33.75,
             "trigger_type": "LOCAL_WEAKNESS_COVER",
             "rsi": 32.8
-        },
-        {
-            "symbol": "^NDX",
-            "label": "Nasdaq 100",
-            "side": "SHORT",
-            "entry_price": 30380.58,
-            "stop_loss": 31145.75,
-            "take_profit": 29232.83,
-            "timestamp": "2026-09-21 16:38:07 UTC",
-            "allocated_capital": 750.0,
-            "risk_allocated": 22.5,
-            "trigger_type": "EXHAUSTION_REVERSAL",
-            "rsi": 63.5
         },
         {
             "symbol": "^GSPC",
@@ -52,11 +39,26 @@
             "risk_allocated": 22.5,
             "trigger_type": "EXHAUSTION_REVERSAL",
             "rsi": 71.1
+        },
+        {
+            "symbol": "^NDX",
+            "label": "Nasdaq 100",
+            "side": "SHORT",
+            "entry_price": 31287.65,
+            "stop_loss": 32062.8,
+            "take_profit": 30124.93,
+            "timestamp": "2026-10-06 14:24:47 UTC",
+            "allocated_capital": 750.0,
+            "risk_allocated": 22.5,
+            "trigger_type": "EXHAUSTION_REVERSAL",
+            "rsi": 83.2
         }
     ],
-    "last_update": "2026-10-06 07:27:34 UTC",
+    "last_update": "2026-10-06 14:24:47 UTC",
     "macro_status": "BULLISH_TREND",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: BULLISH_TREND | Factor Risk: 50% (22.50€)"
+        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: BULLISH_TREND | Factor Risk: 50% (22.50€)",
+        "❌ Cierre SL en SHORT ^NDX | PnL: -22.50 €",
+        "🚀 TRIGGER SHORT: Nasdaq 100 a 31287.65 | SL: 32062.80 | TP: 30124.93"
     ]
 }
