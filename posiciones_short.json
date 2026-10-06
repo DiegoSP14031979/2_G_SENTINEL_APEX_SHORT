@@ -54,11 +54,9 @@
             "rsi": 83.2
         }
     ],
-    "last_update": "2026-10-06 14:24:47 UTC",
+    "last_update": "2026-10-06 19:42:52 UTC",
     "macro_status": "BULLISH_TREND",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: BULLISH_TREND | Factor Risk: 50% (22.50€)",
-        "❌ Cierre SL en SHORT ^NDX | PnL: -22.50 €",
-        "🚀 TRIGGER SHORT: Nasdaq 100 a 31287.65 | SL: 32062.80 | TP: 30124.93"
+        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: BULLISH_TREND | Factor Risk: 50% (22.50€)"
     ]
 }
