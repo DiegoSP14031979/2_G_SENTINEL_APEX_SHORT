@@ -32,7 +32,7 @@
             "label": "Nikkei 225",
             "side": "SHORT",
             "entry_price": 70126.2,
-            "stop_loss": 72733.76,
+            "stop_loss": 71178.09,
             "take_profit": 66214.87,
             "timestamp": "2026-10-06 00:59:19 UTC",
             "allocated_capital": 750.0,
@@ -54,10 +54,11 @@
             "rsi": 83.2
         }
     ],
-    "last_update": "2026-10-07 21:47:07 UTC",
+    "last_update": "2026-10-08 01:34:31 UTC",
     "macro_status": "BULLISH_TREND",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: BULLISH_TREND | Factor Risk: 50% (22.50€)",
-        "🛡️ Break-Even activado para SHORT ^GDAXI a 25431.81"
+        "🛡️ Break-Even activado para SHORT ^GDAXI a 25431.81",
+        "🛡️ Break-Even activado para SHORT ^N225 a 70126.20"
     ]
 }
