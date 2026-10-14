@@ -54,13 +54,10 @@
             "rsi": 41.1
         }
     ],
-    "last_update": "2026-10-14 19:59:29 UTC",
+    "last_update": "2026-10-14 23:07:18 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)",
-        "🛡️ Break-Even activado para SHORT ^N225 a 70126.20",
-        "🛡️ Break-Even activado para SHORT ^NDX a 31287.65",
-        "🎯 Cierre TP en SHORT ^NDX | PnL: +56.25 €",
-        "🚀 TRIGGER SHORT: Nasdaq 100 a 29940.70 | SL: 30674.68 | TP: 28839.73"
+        "🛡️ Break-Even activado para SHORT ^N225 a 70126.20"
     ]
 }
