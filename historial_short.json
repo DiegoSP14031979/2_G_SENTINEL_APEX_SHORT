@@ -76,6 +76,13 @@
             "side": "SHORT",
             "pnl_eur": 56.25,
             "reason": "TAKE_PROFIT"
+        },
+        {
+            "timestamp": "2026-10-15 01:28:36 UTC",
+            "symbol": "^N225",
+            "side": "SHORT",
+            "pnl_eur": 56.25,
+            "reason": "TAKE_PROFIT"
         }
     ],
     "metricas": {
