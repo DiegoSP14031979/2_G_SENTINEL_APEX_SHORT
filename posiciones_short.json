@@ -54,11 +54,9 @@
             "rsi": 48.5
         }
     ],
-    "last_update": "2026-10-19 09:12:08 UTC",
+    "last_update": "2026-10-19 16:29:25 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)",
-        "🛡️ Break-Even activado para SHORT ^GSPC a 7778.38",
-        "🛡️ Break-Even activado para SHORT ^NDX a 29940.70"
+        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)"
     ]
 }
