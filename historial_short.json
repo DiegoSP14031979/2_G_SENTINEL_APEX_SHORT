@@ -83,6 +83,13 @@
             "side": "SHORT",
             "pnl_eur": 56.25,
             "reason": "TAKE_PROFIT"
+        },
+        {
+            "timestamp": "2026-10-29 14:39:40 UTC",
+            "symbol": "^GDAXI",
+            "side": "SHORT",
+            "pnl_eur": -33.75,
+            "reason": "STOP_LOSS"
         }
     ],
     "metricas": {
