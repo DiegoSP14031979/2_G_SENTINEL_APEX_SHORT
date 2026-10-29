@@ -54,12 +54,10 @@
             "rsi": 68.5
         }
     ],
-    "last_update": "2026-10-29 14:39:40 UTC",
+    "last_update": "2026-10-29 19:52:30 UTC",
     "macro_status": "BULLISH_TREND",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: BULLISH_TREND | Factor Risk: 50% (22.50€)",
-        "❌ Cierre SL en SHORT ^GDAXI | PnL: -33.75 €",
-        "🛡️ Break-Even activado para SHORT ^NDX a 29940.70",
-        "🚀 TRIGGER SHORT: DAX 40 a 26027.30 | SL: 26653.13 | TP: 25088.56"
+        "🛡️ Break-Even activado para SHORT ^NDX a 29940.70"
     ]
 }
