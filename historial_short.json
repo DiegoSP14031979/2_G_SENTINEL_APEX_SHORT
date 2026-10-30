@@ -90,6 +90,13 @@
             "side": "SHORT",
             "pnl_eur": -33.75,
             "reason": "STOP_LOSS"
+        },
+        {
+            "timestamp": "2026-10-30 17:01:03 UTC",
+            "symbol": "^NDX",
+            "side": "SHORT",
+            "pnl_eur": 84.375,
+            "reason": "TAKE_PROFIT"
         }
     ],
     "metricas": {

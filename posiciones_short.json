@@ -1,5 +1,5 @@
 {
-    "capital_libre": 2966.25,
+    "capital_libre": 3050.625,
     "slots_activos": [
         {
             "symbol": "^GSPC",
@@ -13,19 +13,6 @@
             "risk_allocated": 22.5,
             "trigger_type": "EXHAUSTION_REVERSAL",
             "rsi": 67.0
-        },
-        {
-            "symbol": "^NDX",
-            "label": "Nasdaq 100",
-            "side": "SHORT",
-            "entry_price": 29940.7,
-            "stop_loss": 30389.81,
-            "take_profit": 28839.73,
-            "timestamp": "2026-10-14 19:59:29 UTC",
-            "allocated_capital": 750.0,
-            "risk_allocated": 33.75,
-            "trigger_type": "LOCAL_WEAKNESS_COVER",
-            "rsi": 41.1
         },
         {
             "symbol": "^N225",
@@ -52,13 +39,29 @@
             "risk_allocated": 22.5,
             "trigger_type": "EXHAUSTION_REVERSAL",
             "rsi": 68.5
+        },
+        {
+            "symbol": "^NDX",
+            "label": "Nasdaq 100",
+            "side": "SHORT",
+            "entry_price": 28368.97,
+            "stop_loss": 29514.45,
+            "take_profit": 26650.74,
+            "timestamp": "2026-10-30 17:01:03 UTC",
+            "allocated_capital": 750.0,
+            "risk_allocated": 33.75,
+            "trigger_type": "BREAKOUT_BEARISH",
+            "rsi": 28.6
         }
     ],
-    "last_update": "2026-10-30 11:02:05 UTC",
-    "macro_status": "BULLISH_TREND",
+    "last_update": "2026-10-30 17:01:03 UTC",
+    "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: BULLISH_TREND | Factor Risk: 50% (22.50€)",
+        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)",
+        "🛡️ Break-Even activado para SHORT ^GSPC a 7778.38",
         "🛡️ Break-Even activado para SHORT ^NDX a 29940.70",
-        "🛡️ Break-Even activado para SHORT ^N225 a 65086.55"
+        "🎯 Cierre TP en SHORT ^NDX | PnL: +84.38 €",
+        "🛡️ Break-Even activado para SHORT ^N225 a 65086.55",
+        "🚀 TRIGGER SHORT: Nasdaq 100 a 28368.97 | SL: 29514.45 | TP: 26650.74"
     ]
 }
