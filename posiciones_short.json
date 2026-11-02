@@ -1,19 +1,6 @@
 {
-    "capital_libre": 3050.625,
+    "capital_libre": 3106.875,
     "slots_activos": [
-        {
-            "symbol": "^GSPC",
-            "label": "S&P 500",
-            "side": "SHORT",
-            "entry_price": 7778.38,
-            "stop_loss": 7895.06,
-            "take_profit": 7559.26,
-            "timestamp": "2026-10-05 19:49:55 UTC",
-            "allocated_capital": 750.0,
-            "risk_allocated": 22.5,
-            "trigger_type": "EXHAUSTION_REVERSAL",
-            "rsi": 67.0
-        },
         {
             "symbol": "^N225",
             "label": "Nikkei 225",
@@ -45,20 +32,36 @@
             "label": "Nasdaq 100",
             "side": "SHORT",
             "entry_price": 28368.97,
-            "stop_loss": 29514.45,
+            "stop_loss": 28794.5,
             "take_profit": 26650.74,
             "timestamp": "2026-10-30 17:01:03 UTC",
             "allocated_capital": 750.0,
             "risk_allocated": 33.75,
             "trigger_type": "BREAKOUT_BEARISH",
             "rsi": 28.6
+        },
+        {
+            "symbol": "^GSPC",
+            "label": "S&P 500",
+            "side": "SHORT",
+            "entry_price": 7541.4,
+            "stop_loss": 7720.37,
+            "take_profit": 7272.95,
+            "timestamp": "2026-11-02 22:09:37 UTC",
+            "allocated_capital": 750.0,
+            "risk_allocated": 33.75,
+            "trigger_type": "BREAKOUT_BEARISH",
+            "rsi": 32.4
         }
     ],
-    "last_update": "2026-11-02 12:53:00 UTC",
+    "last_update": "2026-11-02 22:09:37 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)",
         "🛡️ Break-Even activado para SHORT ^GSPC a 7778.38",
-        "🛡️ Break-Even activado para SHORT ^N225 a 65086.55"
+        "🎯 Cierre TP en SHORT ^GSPC | PnL: +56.25 €",
+        "🛡️ Break-Even activado para SHORT ^N225 a 65086.55",
+        "🛡️ Break-Even activado para SHORT ^NDX a 28368.97",
+        "🚀 TRIGGER SHORT: S&P 500 a 7541.40 | SL: 7720.37 | TP: 7272.95"
     ]
 }
