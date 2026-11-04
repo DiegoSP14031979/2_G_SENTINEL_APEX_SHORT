@@ -54,12 +54,9 @@
             "rsi": 26.6
         }
     ],
-    "last_update": "2026-11-04 03:19:16 UTC",
+    "last_update": "2026-11-04 11:23:39 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)",
-        "🛡️ Break-Even activado para SHORT ^N225 a 65086.55",
-        "🎯 Cierre TP en SHORT ^N225 | PnL: +84.38 €",
-        "🚀 TRIGGER SHORT: Nikkei 225 a 60835.36 | SL: 63957.63 | TP: 56151.95"
+        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)"
     ]
 }
