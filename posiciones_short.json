@@ -54,11 +54,9 @@
             "rsi": 44.8
         }
     ],
-    "last_update": "2026-11-11 15:33:59 UTC",
-    "macro_status": "STRONG_BEARISH",
+    "last_update": "2026-11-11 22:17:14 UTC",
+    "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: STRONG_BEARISH | Factor Risk: 100% (45.00€)",
-        "❌ Cierre SL en SHORT ^NDX | PnL: -45.00 €",
-        "🚀 TRIGGER SHORT: Nasdaq 100 a 28247.66 | SL: 29645.06 | TP: 26151.56"
+        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)"
     ]
 }
