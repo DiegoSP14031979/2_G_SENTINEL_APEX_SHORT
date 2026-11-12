@@ -1,19 +1,6 @@
 {
-    "capital_libre": 3230.625,
+    "capital_libre": 3208.125,
     "slots_activos": [
-        {
-            "symbol": "^GDAXI",
-            "label": "DAX 40",
-            "side": "SHORT",
-            "entry_price": 26027.3,
-            "stop_loss": 26653.13,
-            "take_profit": 25088.56,
-            "timestamp": "2026-10-29 14:39:40 UTC",
-            "allocated_capital": 750.0,
-            "risk_allocated": 22.5,
-            "trigger_type": "EXHAUSTION_REVERSAL",
-            "rsi": 68.5
-        },
         {
             "symbol": "^GSPC",
             "label": "S&P 500",
@@ -52,11 +39,26 @@
             "risk_allocated": 45.0,
             "trigger_type": "BREAKOUT_BEARISH",
             "rsi": 44.8
+        },
+        {
+            "symbol": "^GDAXI",
+            "label": "DAX 40",
+            "side": "SHORT",
+            "entry_price": 26883.94,
+            "stop_loss": 27666.59,
+            "take_profit": 25709.97,
+            "timestamp": "2026-11-12 11:25:46 UTC",
+            "allocated_capital": 750.0,
+            "risk_allocated": 33.75,
+            "trigger_type": "EXHAUSTION_REVERSAL",
+            "rsi": 73.6
         }
     ],
-    "last_update": "2026-11-12 03:14:25 UTC",
+    "last_update": "2026-11-12 11:25:46 UTC",
     "macro_status": "WEAK_BEARISH",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)"
+        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: WEAK_BEARISH | Factor Risk: 75% (33.75€)",
+        "❌ Cierre SL en SHORT ^GDAXI | PnL: -22.50 €",
+        "🚀 TRIGGER SHORT: DAX 40 a 26883.94 | SL: 27666.59 | TP: 25709.97"
     ]
 }
