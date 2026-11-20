@@ -54,17 +54,11 @@
             "rsi": 35.1
         }
     ],
-    "last_update": "2026-11-19 19:09:52 UTC",
-    "macro_status": "STRONG_BEARISH",
+    "last_update": "2026-11-20 01:15:52 UTC",
+    "macro_status": "BULLISH_TREND",
     "decisiones_log": [
-        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: STRONG_BEARISH | Factor Risk: 100% (45.00€)",
-        "🛡️ Break-Even activado para SHORT ^GSPC a 7541.40",
-        "🎯 Cierre TP en SHORT ^GSPC | PnL: +84.38 €",
+        "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: BULLISH_TREND | Factor Risk: 50% (22.50€)",
         "🛡️ Break-Even activado para SHORT ^N225 a 60835.36",
-        "🛡️ Break-Even activado para SHORT ^NDX a 28247.66",
-        "🛡️ Break-Even activado para SHORT ^GDAXI a 26883.94",
-        "🎯 Cierre TP en SHORT ^GDAXI | PnL: +84.38 €",
-        "🚀 TRIGGER SHORT: DAX 40 a 25463.81 | SL: 26295.62 | TP: 24216.10",
-        "🚀 TRIGGER SHORT: S&P 500 a 7206.22 | SL: 7488.44 | TP: 6782.89"
+        "🛡️ Break-Even activado para SHORT ^NDX a 28247.66"
     ]
 }
