@@ -45,7 +45,7 @@
             "label": "Nasdaq 100",
             "side": "SHORT",
             "entry_price": 26752.66,
-            "stop_loss": 28701.51,
+            "stop_loss": 27153.95,
             "take_profit": 23829.4,
             "timestamp": "2026-11-23 17:28:20 UTC",
             "allocated_capital": 750.0,
@@ -54,11 +54,12 @@
             "rsi": 42.4
         }
     ],
-    "last_update": "2026-11-24 14:08:15 UTC",
+    "last_update": "2026-11-24 23:28:51 UTC",
     "macro_status": "STRONG_BEARISH",
     "decisiones_log": [
         "⚡ G-CORE ADAPTIVE ENGINE V4.1 // MACRO: STRONG_BEARISH | Factor Risk: 100% (45.00€)",
         "🛡️ Break-Even activado para SHORT ^N225 a 60835.36",
-        "🛡️ Break-Even activado para SHORT ^GDAXI a 25463.81"
+        "🛡️ Break-Even activado para SHORT ^GDAXI a 25463.81",
+        "🛡️ Break-Even activado para SHORT ^NDX a 26752.66"
     ]
 }
